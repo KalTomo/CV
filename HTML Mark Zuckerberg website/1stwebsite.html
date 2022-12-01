@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mark Zuckerberg</title>
+</head>
+
+<body>
+    <table cellspacing="20"> <!--Increases space between cells-->
+        <tr>
+            <td><img src="https://static.javatpoint.com/biography/images/mark-zuckerberg.png" alt="Mark Zuckerberg Profile Pic">
+                <!-- src is the image source link hosted on a website and alt is the description of the image if it can't load-->>
+                <!-- ALTERNATIVE WAY TO USE IMAGE SOURCE FROM LOCAL FILE img src="mark-zuckerberg.png" alt="Mark Zuckerberg Profile Pic"-->
+                <!--image source must be in the same file as the html file-->>
+                <!-- If image souce is not in the same file you can use path like img src "imagefolder/mark-zuckerberg.png"-->></td>
+            <td><h1>Mark Zuckerberg</h1>
+                <p><em>Founder and CEO of <strong> <a href="https://en.wikipedia.org/wiki/Meta_Platforms"> META Platform</a></strong> </em></p>
+                <!-- read <em></em> vs <i> for italics and 
+                    <b> vs <strong> for bold-->
+                        <!-- <a> is the anchor tag to generate hyperlink text-->>
+                <p>Mark Elliot Zuckerberg is an American business magnate, internet entrepreneur, and philanthropist.</p></td>
+        </tr>
+    </table>
+    
+    <hr size="4" noshade>
+    <h3>Education</h3>
+    <ul> <!--Unordered List-->
+        <li>Complete Phyton Programming</li> <!--List-->
+        <li>Complete web develoopment 
+            <ul> <!--Addition of subitem List-->
+                <li>html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+    </ul>
+    <hr size="4" noshade>
+    <h3>Work Experience</h3>
+    <table border="1" cellspacing="1"> <!--Used to isnsert table-->> <!--you can add border="1" to add border however they 
+        are deprecating hence it is not recommended-->
+        <thead> <!--table header-->
+            <tr> <!--table row-->
+                <th>Year</th> <!--table header cell. Note:the no of <th> pair = no columns-->
+                <th>Job</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Stand for Table Row. Note: No of <tr> pair equals no of rows -->>
+                <td>2010</td> <!--Stands for table data. Note: the no of <td> pair = no columns-->>
+                <td>Student at Stanford</td>
+            </tr>
+            <tr>
+                <td>2013</td>
+                <td>facebook founder</td>
+            </tr>
+
+        </tbody>      
+    </table>
+    <hr size="4" noshade>
+    <h3>Skills</h3> <!--Practise this table-->
+    <table border="1" cellspaccing="10">
+         <tr>
+            <td>
+                <table> <!--table nesting-->
+                    <tr>
+                        <td>ios development</td>
+                        <td>⭐⭐⭐⭐⭐</td> <!--Press windows + .(full stop) or Windows + ;(Semicolon) for emoji-->
+                    </tr>
+                    <tr>
+                        <td>web development</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+                <table>
+                    
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>photography</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>painting</td>
+                        <td>⭐</td>
+                    </tr>                      
+                </table>
+            </td>
+         </tr>
+     </table>
+   
+    <hr size="4" noshade>
+    <a href="hobbies.html">my hobbies</a> <br>
+    <a href="contact.html">Contacts</a>
+</body>
+</html>
